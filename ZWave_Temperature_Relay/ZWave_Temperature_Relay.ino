@@ -8,6 +8,9 @@
 
 word temp_in_c;
 
+// Generate a new product ID
+ZUNO_SETUP_PRODUCT_AUTO();
+
 // Never sleep
 ZUNO_SETUP_SLEEPING_MODE(ZUNO_SLEEPING_MODE_ALWAYS_AWAKE);
 
